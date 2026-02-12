@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: rgb(224, 242, 254);
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav a {
+    margin: 15px;
+    color: red;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: rgb(77, 135, 161);
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    border: white;
+}
+
+.hero h2 {
+    font-weight: bolder;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 150px;
+    background-color: rgb(235, 227, 227)
+}
+
+.title {
+    background-color: rgb(160, 212, 218);
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.destinations {
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    margin: auto;
+    border: 15px;
+}
+
+.card img {
+    width: 200px;
+    border: 15px;
+}
+
+.box {
+    background-color: aquamarine;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+    border: 5px solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.package-section {
+    padding: 40px;
+    background-color: lightskyblue;
+    justify-content: center;
+    display: flex;
+}
+
+.BoxBTN {
+    top: 20px;
+    right: 20px;
+    background-color: rgb(64, 98, 109);
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: solid rgb(159, 159, 221) 1px;
+    cursor: pointer;
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+.BoxBTN a{
+        color: white;
+}
+
+.footer {
+    background-color: rgb(244, 248, 246);
+    color: rgb(84, 53, 12);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.Packages{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
